@@ -140,7 +140,7 @@
    padding: 65px 0;
    background-image: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
    border-radius: 4px;
-   box-shadow: 8px 10px 8px 0 rgb(56, 56, 56);
+   box-shadow: 5px 5px 8px 0 rgb(118, 118, 118);
 }
 
 @include mobile-first (720px) {
@@ -153,12 +153,22 @@
       margin-right: 68px;
       padding: 0;
    }
-
+   
    .nav-list {
       max-width: max-content;
       height: auto;
       padding: 0;
       box-shadow: none;
+   }
+
+   .nav-item:nth-child(1) .nav-link::before {
+      content: "";
+      display: inline-block;
+      width: 11px;
+      height: 11px;
+      margin-right: 7px;
+      background-color: #ffffff;
+      border-radius: 50%;
    }
 }
 
@@ -166,7 +176,7 @@
    font-size: 18px;
    line-height: 21px;
    color: #ffffff;
-
+   
    &:hover {
       color: #ffffff;
       opacity: 0.8;
