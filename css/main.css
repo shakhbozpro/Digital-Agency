@@ -12431,6 +12431,13 @@ body {
   padding: 0 20px;
 }
 
+.information-container {
+  width: 100%;
+  max-width: 1294px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .site-header {
   background-color: #e5e5e5;
 }
@@ -13051,5 +13058,53 @@ body {
   }
   .img-four {
     width: 100%;
+  }
+}
+/* Information section styles */
+.information {
+  padding-top: 103px;
+}
+
+.information-texts-wrapper {
+  width: 100%;
+  max-width: 536px;
+  margin-bottom: 66px;
+}
+
+.information-heading {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 34px;
+}
+
+.information-text {
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--main-text-color);
+}
+
+.information-link {
+  padding: 13px 44px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #dc7000;
+}
+.information-link:hover {
+  color: #ffffff !important;
+  background-color: #dc7000 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .information {
+    padding-top: 164px;
+  }
+  .information-heading {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .information-text {
+    font-size: 17px;
+    line-height: 26px;
   }
 }/*# sourceMappingURL=main.css.map */
