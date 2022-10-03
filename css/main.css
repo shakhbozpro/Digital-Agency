@@ -12661,7 +12661,7 @@ body {
   color: #ffffff;
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
   .hero {
     padding: 102px 0 106px;
     background-image: url("../../images/hero-bg.svg");
@@ -12993,5 +12993,63 @@ body {
   }
   .slider-item-text {
     margin-bottom: 28px;
+  }
+}
+/* Project section styles */
+.projects {
+  padding-top: 60px;
+}
+
+.projects-text-wrapper {
+  width: 100%;
+  max-width: 497px;
+  margin-bottom: 48px;
+}
+
+.projects-heading {
+  font-size: 20px;
+  line-height: 187.5%;
+  margin-bottom: 23px;
+  color: var(--main-heading-color);
+}
+
+.projects-desc {
+  font-size: 12px;
+  line-height: 187.5%;
+  color: var(--main-text-color);
+}
+
+.projects-images {
+  width: 307px;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects {
+    padding-top: 141px;
+  }
+  .projects-text-wrapper {
+    margin-bottom: 71px;
+  }
+  .projects-heading {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+  .projects-desc {
+    font-size: 14px;
+  }
+  .projects-images {
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .projects-images {
+    width: auto;
+    height: 223px;
+  }
+  .img-three {
+    width: 100%;
+  }
+  .img-four {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */

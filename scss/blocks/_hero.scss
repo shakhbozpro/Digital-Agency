@@ -44,7 +44,7 @@
    }
 }
 
-@include mobile-first (720px) {
+@include mobile-first (768px) {
    .hero {
       padding: 102px 0 106px;
       background-image: url("../../images/hero-bg.svg");
