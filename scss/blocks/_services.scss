@@ -1,0 +1,106 @@
+/* Services section styles */
+
+.services {
+   padding-top: 101px;
+   padding-bottom: 107px;
+}
+
+.services-text-wrapper {
+   width: 100%;
+   max-width: 826px;
+   margin-bottom: 106px;
+}
+
+.services-heading {
+   font-size: 20px;
+   line-height: 187.5%;
+   color: #222222;   
+}
+
+.services-text {
+   line-height: 187.5%;
+   color: var(--main-text-color);
+}
+
+.services-list {
+   margin-right: auto;
+   margin-left: auto;   
+}
+
+.services-item {
+   
+   &::before {
+      content: "";
+      display: block;
+      width: 65px;
+      height: 65px;
+      margin-bottom: 30px;
+      background-image: url("../../images/phone.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+   }
+   
+   &:nth-child(2):before {
+      background-image: url("../../images/televizor.svg");
+   }
+   
+   &:nth-child(3):before {
+      background-image: url("../../images/ps4.svg");
+   }
+   
+   &:nth-child(4):before {
+      background-image: url("../../images/person.svg");
+   }
+   
+   &:nth-child(5):before {
+      background-image: url("../../images/rubik.svg");
+   }
+   
+   &:nth-child(6):before {
+      background-image: url("../../images/kubik.svg");
+   }
+}
+
+.services-item-heading {
+   font-weight: 500;
+   line-height: 187.5%;
+   font-size: 16px;
+   margin-bottom: 24px;
+}
+
+.services-item-link {
+   &::before {
+      content: "";
+      display: block;
+      width: 21px;
+      height: 19px;
+      background-image: url("../../images/right.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+   }
+}
+
+@include mobile-first (768px) {
+   .services {
+      padding-top: 165px;
+      padding-bottom: 133px;
+   }
+   
+   .services-text-wrapper {
+      margin-bottom: 100px;
+   }   
+   
+   .services-heading {
+      font-size: 25px;
+   }
+   
+   .services-text {
+      font-size: 16px;
+   }
+   
+   .services-item {
+      width: 100%;
+      max-width: 220px;
+   }
+}

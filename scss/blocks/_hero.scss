@@ -21,7 +21,6 @@
    line-height: 155.2%;
    margin-top: 0;
    margin-bottom: 26px;
-   color: #000000;
 }
 
 .hero-text {
@@ -29,7 +28,6 @@
    font-size: 14px;
    line-height: 200%;
    margin-bottom: 35px;
-   color: #000000;
 }
 
 .hero-link {
@@ -51,6 +49,7 @@
       padding: 102px 0 106px;
       background-image: url("../../images/hero-bg.svg");
       background-size: cover;
+      background-position: center;
    }
 
    .hero-heading {
