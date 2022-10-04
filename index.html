@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Digital Agency</title>
   </head>
-  <body>
+  <body class="d-flex flex-column m-0 p-0 h-100 bg-white">
     <!-- Site header start -->
     <header class="site-header">
       <div class="large-container">
-        <div class="header-top d-none d-md-flex justify-content-end">
+        <div class="header-top d-none d-md-flex justify-content-end pt-2 pb-2">
           <a
             class="header-top-link d-flex align-items-center text-decoration-none me-100"
             href="https://digital360.uz/"
@@ -68,31 +68,39 @@
               aria-expanded="false"
               aria-label="navbar-menyu"
             >
-              <span class="burger-span d-inline-block"></span>
-              <span class="burger-span d-inline-block"></span>
-              <span class="burger-span d-inline-block"></span>
+              <span class="burger-span d-inline-block bg-white"></span>
+              <span class="burger-span d-inline-block bg-white"></span>
+              <span class="burger-span d-inline-block bg-white"></span>
             </button>
 
             <nav class="nav position-absolute ms-md-auto">
               <ul
-                class="nav-list flex-column mb-0 list-unstyled d-md-flex flex-md-row"
+                class="nav-list flex-column mb-0 list-unstyled rounded d-md-flex flex-md-row"
               >
                 <li class="nav-item text-center text-md-start">
-                  <a class="nav-link text-decoration-none" href="#">Home</a>
+                  <a class="nav-link text-white text-decoration-none" href="#"
+                    >Home</a
+                  >
                 </li>
                 <li class="nav-item text-center text-md-start">
-                  <a class="nav-link text-decoration-none" href="#">About us</a>
+                  <a class="nav-link text-white text-decoration-none" href="#"
+                    >About us</a
+                  >
                 </li>
                 <li class="nav-item text-center text-md-start">
-                  <a class="nav-link text-decoration-none" href="#">Services</a>
+                  <a class="nav-link text-white text-decoration-none" href="#"
+                    >Services</a
+                  >
                 </li>
                 <li class="nav-item text-center text-md-start">
-                  <a class="nav-link text-decoration-none" href="#">News</a>
+                  <a class="nav-link text-white text-decoration-none" href="#"
+                    >News</a
+                  >
                 </li>
               </ul>
             </nav>
 
-            <a class="header-bottom-btn d-none d-md-block btn" href="#"
+            <a class="header-bottom-btn bg-white d-none d-md-block btn" href="#"
               >Contact us</a
             >
           </div>
@@ -117,7 +125,7 @@
                 industry. Lorem Ipsum has been the industry's standard.
               </p>
               <a
-                class="hero-link text-center text-decoration-none"
+                class="hero-link text-center text-white text-decoration-none"
                 href="#details"
                 >Get more details</a
               >
@@ -178,42 +186,44 @@
             </div>
 
             <ul
-              class="services-list list-unstyled d-grid gap-3 d-md-flex flex-md-wrap justify-content-md-center gap-md-5"
+              class="services-list list-unstyled d-grid gap-3 me-auto ms-auto d-md-flex flex-md-wrap justify-content-md-center gap-md-5"
             >
               <li
                 class="services-item text-center d-flex flex-column justify-content-center align-items-center"
               >
-                <h3 class="services-item-heading">Mobile Game Development</h3>
+                <h3 class="services-item-heading mb-4">
+                  Mobile Game Development
+                </h3>
                 <a class="services-item-link" href="#"></a>
               </li>
               <li
                 class="services-item text-center d-flex flex-column justify-content-center align-items-center"
               >
-                <h3 class="services-item-heading">PC Game Development</h3>
+                <h3 class="services-item-heading mb-4">PC Game Development</h3>
                 <a class="services-item-link" href="#"></a>
               </li>
               <li
                 class="services-item text-center d-flex flex-column justify-content-center align-items-center"
               >
-                <h3 class="services-item-heading">PS4 Game Development</h3>
+                <h3 class="services-item-heading mb-4">PS4 Game Development</h3>
                 <a class="services-item-link" href="#"></a>
               </li>
               <li
                 class="services-item text-center d-flex flex-column justify-content-center align-items-center"
               >
-                <h3 class="services-item-heading">AR/VR Solutions</h3>
+                <h3 class="services-item-heading mb-4">AR/VR Solutions</h3>
                 <a class="services-item-link" href="#"></a>
               </li>
               <li
                 class="services-item text-center d-flex flex-column justify-content-center align-items-center"
               >
-                <h3 class="services-item-heading">AR/ VR design</h3>
+                <h3 class="services-item-heading mb-4">AR/ VR design</h3>
                 <a class="services-item-link" href="#"></a>
               </li>
               <li
                 class="services-item text-center d-flex flex-column justify-content-center align-items-center"
               >
-                <h3 class="services-item-heading">3D Modelings</h3>
+                <h3 class="services-item-heading mb-4">3D Modelings</h3>
                 <a class="services-item-link" href="#"></a>
               </li>
             </ul>
@@ -238,8 +248,10 @@
         </div>
 
         <ul class="slider-list list-unstyled">
-          <li class="slider-item">
-            <span class="text-center slider-span-one">Lorem ipsum</span>
+          <li class="slider-item bg-white">
+            <span class="text-center d-inline-block slider-span-one"
+              >Lorem ipsum</span
+            >
             <h3 class="slider-item-heading fw-semibold text-capitalize mb-md-3">
               Lorem ipsum
             </h3>
@@ -255,8 +267,10 @@
             >
           </li>
 
-          <li class="slider-item">
-            <span class="text-center slider-span-two">Lorem ipsum</span>
+          <li class="slider-item bg-white">
+            <span class="text-center d-inline-block slider-span-two"
+              >Lorem ipsum</span
+            >
             <h3 class="slider-item-heading fw-semibold text-capitalize mb-md-3">
               Lorem ipsum
             </h3>
@@ -272,8 +286,10 @@
             >
           </li>
 
-          <li class="slider-item">
-            <span class="text-center slider-span-three">Lorem ipsum</span>
+          <li class="slider-item bg-white">
+            <span class="text-center d-inline-block slider-span-three"
+              >Lorem ipsum</span
+            >
             <h3 class="slider-item-heading fw-semibold text-capitalize mb-md-3">
               Lorem ipsum
             </h3>
@@ -289,8 +305,10 @@
             >
           </li>
 
-          <li class="slider-item">
-            <span class="text-center slider-span-four">Lorem ipsum</span>
+          <li class="slider-item bg-white">
+            <span class="text-center d-inline-block slider-span-four"
+              >Lorem ipsum</span
+            >
             <h3 class="slider-item-heading fw-semibold text-capitalize mb-md-3">
               Lorem ipsum
             </h3>
@@ -313,7 +331,7 @@
       <section class="projects">
         <div class="news-container">
           <div>
-            <div class="projects-text-wrapper text-center mx-auto">
+            <div class="projects-text-wrapper mb-5 text-center mx-auto">
               <h2 class="projects-heading fw-semibold">Our Recent Projects</h2>
               <p class="projects-desc mb-0">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -398,7 +416,9 @@
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <a class="information-link btn rounded-0" href="#">Read more</a>
+              <a class="information-link text-white btn rounded-0" href="#"
+                >Read more</a
+              >
             </div>
 
             <div>

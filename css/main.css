@@ -12386,22 +12386,10 @@ html {
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100%;
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
   font-family: "Poppins", "Arial", sans-serif;
-  background-color: #ffffff;
 }
 
-/* Sticky-footer */
 /* Container styles */
 .large-container {
   width: 100%;
@@ -12442,11 +12430,6 @@ body {
   background-color: #e5e5e5;
 }
 
-.header-top {
-  padding-top: 8px;
-  padding-bottom: 9px;
-}
-
 .header-top-link {
   font-size: 10px;
   line-height: 15px;
@@ -12461,14 +12444,14 @@ body {
   width: 11px;
   height: 15px;
   margin-right: 10px;
-  background-image: url("../../images/location.svg");
+  background-image: url("../images/location.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .header-top-link:nth-child(2)::before {
   margin-right: 6px;
-  background-image: url("../../images/header-phone.svg");
+  background-image: url("../images/header-phone.svg");
 }
 
 .header-bottom {
@@ -12486,7 +12469,7 @@ body {
   display: block;
   width: 26px;
   height: 21px;
-  background-image: url("../../images/burger-btn.svg");
+  background-image: url("../images/burger-btn.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -12503,16 +12486,11 @@ body {
 }
 .header-bottom-item a {
   line-height: 24px;
-  color: #ffffff;
 }
 
 .header-bottom-btn {
   padding: 10px 28px 11px 27px;
   color: #dc7000;
-  background-color: #ffffff;
-}
-.header-bottom-btn:hover {
-  color: #ffffff !important;
 }
 
 .header-burger {
@@ -12522,11 +12500,10 @@ body {
 .burger-span {
   width: 30px;
   height: 3px;
-  background-color: #ffffff;
   margin: 3px auto;
+  border-radius: 10px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  border-radius: 10px;
 }
 
 .burger-span:nth-child(2) {
@@ -12576,9 +12553,13 @@ body {
   margin: 0 auto;
   padding: 65px 0;
   background-image: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
-  border-radius: 4px;
   -webkit-box-shadow: 5px 5px 8px 0 rgb(118, 118, 118);
           box-shadow: 5px 5px 8px 0 rgb(118, 118, 118);
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 21px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -12613,19 +12594,9 @@ body {
     border-radius: 50%;
   }
 }
-.nav-link {
-  font-size: 18px;
-  line-height: 21px;
-  color: #ffffff;
-}
-.nav-link:hover {
-  color: #ffffff;
-  opacity: 0.8;
-}
-
 .hero {
   padding: 108px 0;
-  background-image: url("../../images/hero-bg-mobile.svg");
+  background-image: url("../images/hero-bg-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -12660,18 +12631,14 @@ body {
   font-size: 15px;
   line-height: 22px;
   padding: 13px 18px 12px 22px;
-  color: #ffffff;
   background-image: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
   border-radius: 40px;
-}
-.hero-link:hover {
-  color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) {
   .hero {
     padding: 102px 0 106px;
-    background-image: url("../../images/hero-bg.svg");
+    background-image: url("../images/hero-bg.svg");
     background-size: cover;
     background-position: center;
   }
@@ -12679,13 +12646,13 @@ body {
     font-size: 50px;
   }
   .hero-text {
-    font-style: 16px;
+    font-size: 16px;
     margin-bottom: 50px;
   }
   .hero-end-img {
     width: 675px;
     height: 460px;
-    background-image: url("../../images/hero-img.png");
+    background-image: url("../images/hero-img.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -12758,17 +12725,12 @@ body {
 .services-heading {
   font-size: 20px;
   line-height: 187.5%;
-  color: #222222;
+  color: var(--main-heading-color);
 }
 
 .services-text {
   line-height: 187.5%;
   color: var(--main-text-color);
-}
-
-.services-list {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .services-item::before {
@@ -12777,32 +12739,31 @@ body {
   width: 65px;
   height: 65px;
   margin-bottom: 30px;
-  background-image: url("../../images/phone.svg");
+  background-image: url("../images/phone.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .services-item:nth-child(2):before {
-  background-image: url("../../images/televizor.svg");
+  background-image: url("../images/televizor.svg");
 }
 .services-item:nth-child(3):before {
-  background-image: url("../../images/ps4.svg");
+  background-image: url("../images/ps4.svg");
 }
 .services-item:nth-child(4):before {
-  background-image: url("../../images/person.svg");
+  background-image: url("../images/person.svg");
 }
 .services-item:nth-child(5):before {
-  background-image: url("../../images/rubik.svg");
+  background-image: url("../images/rubik.svg");
 }
 .services-item:nth-child(6):before {
-  background-image: url("../../images/kubik.svg");
+  background-image: url("../images/kubik.svg");
 }
 
 .services-item-heading {
   font-weight: 500;
   line-height: 187.5%;
   font-size: 16px;
-  margin-bottom: 24px;
 }
 
 .services-item-link::before {
@@ -12810,7 +12771,7 @@ body {
   display: block;
   width: 21px;
   height: 19px;
-  background-image: url("../../images/right.svg");
+  background-image: url("../images/right.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -12862,13 +12823,11 @@ body {
   width: 100%;
   max-width: 299px;
   padding: 30px 31px 24px 28px;
-  background-color: #ffffff;
   border-radius: 20px;
 }
 .slider-item > span {
   font-size: 14px;
   line-height: 187.5%;
-  display: inline-block;
   margin-bottom: 17px;
   padding: 6px 11px;
   border-radius: 8px;
@@ -13010,7 +12969,6 @@ body {
 .projects-text-wrapper {
   width: 100%;
   max-width: 497px;
-  margin-bottom: 48px;
 }
 
 .projects-heading {
@@ -13035,7 +12993,7 @@ body {
     padding-top: 141px;
   }
   .projects-text-wrapper {
-    margin-bottom: 71px;
+    margin-bottom: 71px !important;
   }
   .projects-heading {
     font-size: 25px;
@@ -13086,7 +13044,6 @@ body {
 
 .information-link {
   padding: 13px 44px;
-  color: #ffffff;
   cursor: pointer;
   background-color: #dc7000;
 }
