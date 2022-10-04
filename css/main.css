@@ -13107,4 +13107,122 @@ body {
     font-size: 17px;
     line-height: 26px;
   }
+}
+/* Aticle section styles */
+.article {
+  padding-top: 49px;
+  padding-bottom: 69px;
+}
+
+.article-text-wrapper {
+  max-width: 545px;
+  margin-bottom: 41px;
+}
+
+.article-heading {
+  margin-bottom: 13px;
+  font-size: 20px;
+  line-height: 187.5%;
+  color: var(--main-heading-color);
+}
+
+.article-desc {
+  font-size: 12px;
+  line-height: 187.5%;
+  color: var(--main-text-color);
+}
+
+.article-fomring {
+  padding: 30px 22px 18px 21px;
+  background-color: #1b1b1b;
+  border-radius: 15px;
+}
+
+.article-form-texts {
+  max-width: 546px;
+  margin-bottom: 43px;
+}
+
+.article-form-heading {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.article-form-text {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.article-form {
+  max-width: 385px;
+}
+
+.article-form-input {
+  padding: 14px 6px 14px 10px;
+}
+.article-form-input::-webkit-input-placeholder {
+  font-size: 13px;
+  line-height: 20px;
+  color: #898989;
+}
+.article-form-input::-moz-placeholder {
+  font-size: 13px;
+  line-height: 20px;
+  color: #898989;
+}
+.article-form-input:-ms-input-placeholder {
+  font-size: 13px;
+  line-height: 20px;
+  color: #898989;
+}
+.article-form-input::-ms-input-placeholder {
+  font-size: 13px;
+  line-height: 20px;
+  color: #898989;
+}
+.article-form-input::placeholder {
+  font-size: 13px;
+  line-height: 20px;
+  color: #898989;
+}
+
+.article-form-btn {
+  top: 7px;
+  right: 6px;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 7px 11px 7px 16px;
+  background-color: #dc7000;
+}
+
+@media only screen and (min-width: 375px) {
+  .article-form-input {
+    padding: 14px 6px 14px 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .article {
+    padding-top: 125px;
+    padding-bottom: 148px;
+  }
+  .article-text-wrapper {
+    margin-bottom: 74px;
+  }
+  .article-heading {
+    font-size: 30px;
+  }
+  .article-desc {
+    font-size: 15px;
+  }
+  .article-fomring {
+    padding: 40px 50px 42px 56px;
+  }
+  .article-form-text {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .article-form-btn {
+    padding: 8px 14px 9px 22px;
+  }
 }/*# sourceMappingURL=main.css.map */
