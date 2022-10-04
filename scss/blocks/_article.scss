@@ -66,6 +66,10 @@
    line-height: 20px;
    padding: 7px 11px 7px 16px;
    background-color: #dc7000;
+
+   &:hover {
+      background-color: #dc7000 !important;
+   }
 }
 
 @include mobile-first (375px) {
