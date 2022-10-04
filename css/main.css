@@ -13216,7 +13216,7 @@ body {
     font-size: 15px;
   }
   .article-fomring {
-    padding: 40px 50px 42px 56px;
+    padding: 40px 25px 42px 25px;
   }
   .article-form-text {
     font-size: 17px;
@@ -13224,5 +13224,75 @@ body {
   }
   .article-form-btn {
     padding: 8px 14px 9px 22px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .article-fomring {
+    padding: 40px 50px 42px 56px;
+  }
+}
+/* Footer styles */
+.site-footer {
+  padding: 22px 0 27px;
+  background-color: #1b1b1b;
+}
+
+.site-footer-texts {
+  max-width: 372px;
+}
+
+.site-footer-desc {
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.site-footer-link {
+  line-height: 24px;
+}
+
+.site-footer-text {
+  font-size: 12px;
+  line-height: 190.6%;
+}
+
+.site-footer-links-contact {
+  max-width: 282px;
+}
+
+.site-footer-links-headings {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 17px;
+}
+
+.site-footer-item-links {
+  line-height: 186.3%;
+}
+
+.sites-logos {
+  margin-bottom: -7px;
+}
+
+.site-footer-line {
+  height: 1px;
+  margin-top: 59px;
+  margin-bottom: 29px;
+  background-color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .site-footer {
+    padding: 74px 0 29px;
+  }
+  .site-footer-texts {
+    margin-bottom: 30px;
+  }
+  .site-footer-links-list {
+    margin-bottom: 40px;
+  }
+  .site-footer-links-contact {
+    margin-bottom: 40px;
   }
 }/*# sourceMappingURL=main.css.map */

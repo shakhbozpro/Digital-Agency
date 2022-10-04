@@ -93,7 +93,7 @@
    }
    
    .article-fomring {
-      padding: 40px 50px 42px 56px;
+      padding: 40px 25px 42px 25px;
    }
 
    .article-form-text {
@@ -103,5 +103,11 @@
 
    .article-form-btn {
       padding: 8px 14px 9px 22px;
+   }
+}
+
+@include mobile-first (960px) {
+   .article-fomring {
+      padding: 40px 50px 42px 56px;
    }
 }
